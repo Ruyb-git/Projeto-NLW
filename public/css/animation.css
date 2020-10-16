@@ -49,6 +49,12 @@
   animation-duration: 800ms;
 }
 
+.animate-left {
+  animation-name: left;
+  animation-duration: 800ms;
+}
+
+
 .animate-appear{
   animation-name: appear;
   animation-duration: 1000ms;

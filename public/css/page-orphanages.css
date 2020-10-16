@@ -65,9 +65,7 @@ a.create-orphanage{
     transition: background-color 600ms;
 
     /* animation */
-    animation: left;
-    animation-duration: 800ms;
-    
+
       
 }
 
