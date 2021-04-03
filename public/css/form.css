@@ -53,7 +53,7 @@ fieldset legend{
 .input-block textarea {
     width: 100%;
 
-    background: #d3e2e5;
+    background: #c6e0e657;
     border: 1px solid #d3e2e5;
     border-radius: 2rem;
     
@@ -66,6 +66,11 @@ fieldset legend{
     padding: 0 1.6rem;
 }
 
+.input-block input:valid,
+.input-block textarea:valid {
+    border: 1px solid #A1e9c5;
+}
+
 .input-block textarea{
     height: clamp(12rem, 16rem, 24rem);
     resize: vertical;
@@ -76,5 +81,17 @@ fieldset legend{
 .input-block input:focus,
 .input-block textarea:focus {
     border: 2px solid #5c8599;
+}
+
+.input-block.images button {
+    border: 1px dashed #96d2f0;
+    width: 100%;
+    background: #f5f8fa;
+    height: 6.4rem;
+    padding: 0 1.6rem;
+    margin-top: 2.4rem;
+    border-radius: 2rem;
+
+    cursor: pointer;
 }
 
